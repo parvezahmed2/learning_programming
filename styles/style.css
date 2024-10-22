@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 652px;
+    align-items: center;
+ 
+    background-image: url("../assets/Hero-bg.png");
+}
+.h-title{
+    font-size: 48px;
+}
+
+.header-container{
+    width: 998px;
+    text-align: center;
+     
+}
+.h-btn{
+    background-color: rgba(13, 19, 33, 1);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 35px;
+
+}
+.h-btn> a{
+    text-decoration: none;
+    color: white;
+   
+}
+.mt-h{
+    margin-top: 25px;
+}
+
+
+/*  web development section */
+
+.web-learning-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.web-container{
+    
+    width: 852px;
+    height: 113px;
+
+}
+.why-web{
+    text-align: center;
+}
+
+.why-title{
+    font-size: 32px;
+}
+
+
+
+
+/* learing section  */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-learning-container{
+    background: rgba(13, 19, 33, 0.02);
+    width: 1140px;
+    height: 1393px;
+    padding-top: 50px;
+}
+.learn-container{
+    width: 946px;
+height: 336px;
+margin-top: 50px;
+margin-bottom: 32px;
+border-radius: 16px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+ 
+}
+.more-learn{
+   width: 850px;
+height: 240px;
+ 
+    
+    
+}
+.lear-ditail{
+    width: 477px;
+    height: 219px;
+}
+.lear-title{
+    font-weight: 700;
+}
+.lear-img{
+    width: 274;
+    height: 240px;
+
+}
+.primary-btn{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+padding: 12px 20px 12px 20px;
+margin: 32px 0px;
+}
+
+/* inspiration container  */
+.my-inspiration-main-container{
+    display: flex;
+    justify-content: center;
+}
+.sub-container{
+    width: 852px;
+height: 37px;
+margin-top: 200px;
+}
+
+.blog-title{
+    font-size: 32px;
+font-weight: 800;
+text-align: center;
+color: rgb(13, 19, 33);
+}
+
+.sum-video-container{
+    margin-top: 80px;
+    
+}
+
+
+/* target container - */
+.target-sub-container{
+    width: 338px;
+height: 280px; 
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+padding: 20px;
+}
+
+.target-div-container{
+   margin-top: 67px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    
+}
+.target-sub-container img{
+    margin: 21px 10px;
+}
+.target-sub-container h1{
+    margin: 12px 0px;
+}
+
+.target-sub-container p{
+    margin: 15px 0;
+}
+.target-sub-container h4{
+    text-decoration: underline;
+}
+
+
+
+/* form section  */
+.form-section{
+    width: 1140px;
+    height: 250px;
+     background-image: url("../assets/handshake.jpg") ;
+     padding: 64px 48px 64px 48px;
+     border-radius: 16px;
+     margin-top: 100px;
+}
+
+.need-support-main-section{
+    width: 1044px;
+height: 185px; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.support-dic-sec{
+    width: 730px;
+height: 104px ;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+color: rgb(255, 255, 255);
+}
+
+.input-suport-problem>input[type="text"]{
+    width: 548px;
+height: 57px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 19px 20px 19px 20px;
+}
+.input-suport-problem>input[type="Submit"]{
+    width: 120px;
+height: 57px; 
+border-radius: 8px;
+background: rgb(255, 255, 255);
+border: none;
+}
+
+
+footer{
+    height: 330px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.p-info-section p{
+    margin-top: 5px;
+}
+.p-info-logo-section a{
+    margin-left: 11px;
+}
